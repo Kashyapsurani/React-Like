@@ -1,0 +1,28 @@
+.Like-Button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 4rem;
+    font-weight: 700;
+    width: auto;
+}
+
+.Like{
+    width: 100px;
+    height: 100px;
+    padding: 0 60px;
+}
+
+box-icon{
+    margin: 0 ;
+    padding:0;
+    width: 100%;
+    height: 100%;
+}
+
+svg{
+    margin: 0 ;
+    padding:0;
+    width: 100%;
+    height: 100%;
+}
