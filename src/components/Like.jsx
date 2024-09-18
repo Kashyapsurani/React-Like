@@ -1,8 +1,5 @@
 import './Like.css';
 import { useRef, useState } from 'react';
-import { ReactSVG } from 'react-svg';
-import mySvg from './my-svg.svg';
-import mySvg2 from './dislike-1387-svgrepo-com.svg';
 import 'boxicons'
 
 
@@ -23,7 +20,7 @@ function Like() {
     likeRef2.current.style.fill = "black"
     
    };
-   
+  
    const handelUnclick = () => {
     likeRef1.current.style.fill = "black"
     likeRef2.current.style.fill = "blue"
